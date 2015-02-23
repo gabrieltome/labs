@@ -1,0 +1,18 @@
+{
+  "name": "bower-test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gabrieltome/labs",
+  "authors": [
+    "Gabriel Tomé <gabrieltsistemas@hotmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
