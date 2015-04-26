@@ -4,5 +4,5 @@ This is a repository lab. I decided create this repository to help me in my stud
 
 ## Summary
 
-- [JavaScript](https://github.com/gabrieltome/labs/javascript)
-- Node.js
+- [JavaScript](https://github.com/gabrieltome/labs/tree/master/javascript)
+- [NodeJS](https://github.com/gabrieltome/labs/tree/master/nodejs)
