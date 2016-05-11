@@ -2,9 +2,15 @@
 
 ## Escopo
 
+Em JavaScript, **funções são nosso delimitador de escopo** de facto para declaração de variáveis, o que significa que blocos usuais de loops e estruturas condicionais (como if, for, while, switch e try) **NÃO delimitam escopos**, diferente de muitas outras linguagens. Portanto, esses blocos irão compartilhar do mesmo escopo que a função que os contém. Dessa forma, pode ser perigoso declarar variáveis dentro de blocos, já que irá parecer que a variável pertence apenas ao bloco.
+
 Em **JavaScript**, **só temos escopo a nível de função**.
 
-## Hoisting
+## Hoisting (Elevação)
+
+Em tempo de execução, **todas as variáveis e declarações de funções são movidas para o início de cada função (seu próprio escopo)** - isso é conhecido como elevação (hoisting). Dito isso, é uma boa prática declarar todas as variáveis juntas na primeira linha, a fim de evitar falsas expectativas em relação a uma variável que foi declarada depois mas que acabou recebendo um valor antes - esse é um problema comum para programadores vindos de linguagens com escopos em blocos.
+
+[Fonte - JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
 
 ###Variable Hoisting
 
